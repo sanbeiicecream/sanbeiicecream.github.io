@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://adityatelange.github.io/posts/blog-test/</loc>
+    <loc>https://sanbeiicecream.github.io/posts/blog-test/</loc>
     <lastmod>2023-02-02T23:41:59+08:00</lastmod>
   </url><url>
-    <loc>https://adityatelange.github.io/</loc>
+    <loc>https://sanbeiicecream.github.io/</loc>
     <lastmod>2023-02-02T23:41:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://adityatelange.github.io/fr/"
+                href="https://sanbeiicecream.github.io/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="https://adityatelange.github.io/fa/"
+                href="https://sanbeiicecream.github.io/fa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://adityatelange.github.io/"
+                href="https://sanbeiicecream.github.io/"
                 />
   </url><url>
-    <loc>https://adityatelange.github.io/posts/</loc>
+    <loc>https://sanbeiicecream.github.io/posts/</loc>
     <lastmod>2023-02-02T23:41:59+08:00</lastmod>
   </url><url>
-    <loc>https://adityatelange.github.io/categories/</loc>
+    <loc>https://sanbeiicecream.github.io/categories/</loc>
   </url><url>
-    <loc>https://adityatelange.github.io/series/</loc>
+    <loc>https://sanbeiicecream.github.io/series/</loc>
   </url><url>
-    <loc>https://adityatelange.github.io/tags/</loc>
+    <loc>https://sanbeiicecream.github.io/tags/</loc>
   </url>
 </urlset>
