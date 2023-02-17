@@ -16,10 +16,7 @@
       <pubDate>Thu, 16 Feb 2023 02:51:14 +0800</pubDate>
       
       <guid>https://sanbeiicecream.github.io/posts/hugo%E4%BD%BF%E7%94%A8papermod%E6%90%AD%E5%BB%BA%E4%B8%BB%E9%A2%98%E9%9D%99%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</guid>
-      <description>先动起来 配置优先的一个静态页面生成的框架 先安装hugo后，需要先安装golang
-# 先创建一个模板 hugo new site xxx # 然后下载一个主题放在themes文件夹里面，在config.yml中theme指定主题（文件夹名） # 启动查看效果 hugo server 下载主题最好是使用git submodule命令进行仓库链接，这样后续可以对主题的修改进行单独维护
-git init git submodule add https://github.com/adityatelange/hugo-PaperMod/ fork的原因在于当原始的仓库进行变更后，可以选择性进行合并，以便即使现在版本落后很多也不会合并和样式出现大范围问题。 进行自定义时，不能修改themes里面的主题，因为是通过git submodule add的，修改后，推代码并不会推送到github上，要么修改自己fork的主题库，最好是通过在外面通过和theme一样的层级文件进行覆盖 初级改造，先改造得顺眼，后面再加各种功能 有些配置修改后需要重启服务才会生效，比如i18n里面的配置 根据页面类名定位到这里是在partial目录下的post_meta.html中定义的模板 这三个标签需要在content里面添加archive.md search.md才能显示出来
---- title: &amp;#34;🔍搜索&amp;#34; # in any language you want layout: &amp;#34;search&amp;#34; # is necessary # url: &amp;#34;/archive&amp;#34; # description: &amp;#34;Description for Search&amp;#34; summary: &amp;#34;search&amp;#34; placeholder: &amp;#34;输入关键字 + Enter&amp;#34; --- --- title: &amp;#34;⏱时间轴&amp;#34; layout: &amp;#34;archives&amp;#34; url: &amp;#34;/archives/&amp;#34; summary: archives --- </description>
+      <description>先动起来 配置优先的一个静态页面生成的框架 先安装hugo后，需要先安装golang # 先创建一个模板 hugo new site xxx # 然后下载一个主题放在themes文</description>
     </item>
     
   </channel>
