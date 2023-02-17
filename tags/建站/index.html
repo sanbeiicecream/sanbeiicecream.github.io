@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>TagsPermalink | PaperMod</title>
+<title>建站 | PaperMod</title>
 <meta name="keywords" content="">
 <meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
 <meta name="author" content="">
-<link rel="canonical" href="https://sanbeiicecream.github.io/tagspermalink/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.96bdfc102582f1b32cc3a650b712d6a3001657d4470208a355bff8e3976ece57.css" integrity="sha256-lr38ECWC8bMsw6ZQtxLWowAWV9RHAgijVb/445duzlc=" rel="preload stylesheet" as="style">
+<link rel="canonical" href="https://sanbeiicecream.github.io/tags/%E5%BB%BA%E7%AB%99/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.dcd318bf045e706fc99a682863aa07ac7d124fb3c3c1e1b6e2f5d0a01e69b847.css" integrity="sha256-3NMYvwRecG/JmmgoY6oHrH0ST7PDweG24vXQoB5puEc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://sanbeiicecream.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://sanbeiicecream.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://sanbeiicecream.github.io/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://sanbeiicecream.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://sanbeiicecream.github.io/tagspermalink/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://sanbeiicecream.github.io/tags/%E5%BB%BA%E7%AB%99/index.xml">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,15 +55,15 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="TagsPermalink" />
+</noscript><meta property="og:title" content="建站" />
 <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://sanbeiicecream.github.io/tagspermalink/" /><meta property="og:image" content="https://sanbeiicecream.github.io/papermod-cover.png"/>
+<meta property="og:url" content="https://sanbeiicecream.github.io/tags/%E5%BB%BA%E7%AB%99/" /><meta property="og:image" content="https://sanbeiicecream.github.io/papermod-cover.png"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://sanbeiicecream.github.io/papermod-cover.png"/>
 
-<meta name="twitter:title" content="TagsPermalink"/>
+<meta name="twitter:title" content="建站"/>
 <meta name="twitter:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"/>
 
 </head>
@@ -131,13 +131,35 @@
         </ul>
     </nav>
 </header>
-<main class="main">
-<header class="page-header">
-    <h1>TagsPermalink</h1>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://sanbeiicecream.github.io/">主页</a>&nbsp;»&nbsp;<a href="https://sanbeiicecream.github.io/tags/">Tags</a></div>
+  <h1>
+    建站
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
 </header>
 
-<ul class="terms-tags">
-</ul>
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>hugo使用PaperMod搭建主题静搭建静态博客
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>先动起来 配置优先的一个静态页面生成的框架 先安装hugo后，需要先安装golang
+# 先创建一个模板 hugo new site xxx # 然后下载一个主题放在themes文件夹里面，在config.yml中theme指定主题（文件夹名） # 启动查看效果 hugo server 下载主题最好是使用git submodule命令进行仓库链接，这样后续可以对主题的修改进行单独维护
+git init git submodule add https://github.com/adityatelange/hugo-PaperMod/ fork的原因在于当原始的仓库进行变更后，可以选择性进行合并，以便即使现在版本落后很多也不会合并和样式出现大范围问题。 进行自定义时，不能修改themes里面的主题，因为是通过git submodule add的，修改后，推代码并不会推送到github上，要么修改自己fork的主题库，最好是通过在外面通过和theme一样的层级文件进行覆盖 初级改造，先改造得顺眼，后面再加各种功能 有些配置修改后需要重启服务才会生效，比如i18n里面的配置 根据页面类名定位到这里是在partial目录下的post_meta.html中定义的模板 这三个标签需要在content里面添加archive.md search.md才能显示出来
+--- title: &#34;🔍搜索&#34; # in any language you want layout: &#34;search&#34; # is necessary # url: &#34;/archive&#34; # description: &#34;Description for Search&#34; summary: &#34;search&#34; placeholder: &#34;输入关键字 &#43; Enter&#34; --- --- title: &#34;⏱时间轴&#34; layout: &#34;archives&#34; url: &#34;/archives/&#34; summary: archives --- </p>
+  </div>
+  <footer class="entry-footer"><span title='2023-02-16 02:51:14 +0800 +0800'>2023年2月16日</span>&nbsp;|&nbsp;1 分钟&nbsp;|&nbsp;71 字</footer>
+  <a class="entry-link" aria-label="post link to hugo使用PaperMod搭建主题静搭建静态博客" href="https://sanbeiicecream.github.io/posts/hugo%E4%BD%BF%E7%94%A8papermod%E6%90%AD%E5%BB%BA%E4%B8%BB%E9%A2%98%E9%9D%99%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"></a>
+</article>
     </main>
     
 <footer class="footer">

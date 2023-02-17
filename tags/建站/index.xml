@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>PaperMod</title>
-    <link>https://sanbeiicecream.github.io/</link>
-    <description>Recent content on PaperMod</description>
+    <title>建站 on PaperMod</title>
+    <link>https://sanbeiicecream.github.io/tags/%E5%BB%BA%E7%AB%99/</link>
+    <description>Recent content in 建站 on PaperMod</description>
     <image>
       <url>https://sanbeiicecream.github.io/papermod-cover.png</url>
       <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Feb 2023 07:59:02 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>谷歌浏览器你要干什么</title>
-      <link>https://sanbeiicecream.github.io/posts/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BD%A0%E8%A6%81%E5%B9%B2%E4%BB%80%E4%B9%88/</link>
-      <pubDate>Fri, 17 Feb 2023 07:59:02 +0000</pubDate>
-      
-      <guid>https://sanbeiicecream.github.io/posts/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BD%A0%E8%A6%81%E5%B9%B2%E4%BB%80%E4%B9%88/</guid>
-      <description>谷歌浏览器这是要干嘛？？？ 果断设置里面=&amp;gt; 隐私设置和安全性 =&amp;gt; 安全浏览 里面关闭 </description>
-    </item>
-    
+    <lastBuildDate>Thu, 16 Feb 2023 02:51:14 +0800</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo使用PaperMod搭建主题静搭建静态博客</title>
       <link>https://sanbeiicecream.github.io/posts/hugo%E4%BD%BF%E7%94%A8papermod%E6%90%AD%E5%BB%BA%E4%B8%BB%E9%A2%98%E9%9D%99%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
@@ -30,35 +21,6 @@
 git init git submodule add https://github.com/adityatelange/hugo-PaperMod/ fork的原因在于当原始的仓库进行变更后，可以选择性进行合并，以便即使现在版本落后很多也不会合并和样式出现大范围问题。 进行自定义时，不能修改themes里面的主题，因为是通过git submodule add的，修改后，推代码并不会推送到github上，要么修改自己fork的主题库，最好是通过在外面通过和theme一样的层级文件进行覆盖 初级改造，先改造得顺眼，后面再加各种功能 有些配置修改后需要重启服务才会生效，比如i18n里面的配置 根据页面类名定位到这里是在partial目录下的post_meta.html中定义的模板 这三个标签需要在content里面添加archive.md search.md才能显示出来
 --- title: &amp;#34;🔍搜索&amp;#34; # in any language you want layout: &amp;#34;search&amp;#34; # is necessary # url: &amp;#34;/archive&amp;#34; # description: &amp;#34;Description for Search&amp;#34; summary: &amp;#34;search&amp;#34; placeholder: &amp;#34;输入关键字 + Enter&amp;#34; --- --- title: &amp;#34;⏱时间轴&amp;#34; layout: &amp;#34;archives&amp;#34; url: &amp;#34;/archives/&amp;#34; summary: archives --- </description>
     </item>
-    
-    <item>
-      <title>图床 Test</title>
-      <link>https://sanbeiicecream.github.io/posts/%E5%9B%BE%E5%BA%8A-hosting-test/</link>
-      <pubDate>Sat, 04 Feb 2023 01:16:22 +0800</pubDate>
-      
-      <guid>https://sanbeiicecream.github.io/posts/%E5%9B%BE%E5%BA%8A-hosting-test/</guid>
-      <description>图床test </description>
-    </item>
-    
-    <item>
-      <title>Blog Test</title>
-      <link>https://sanbeiicecream.github.io/posts/blog-test/</link>
-      <pubDate>Thu, 02 Feb 2023 23:41:59 +0800</pubDate>
-      
-      <guid>https://sanbeiicecream.github.io/posts/blog-test/</guid>
-      <description>还是开始那样的 Hello World！</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sanbeiicecream.github.io/assets/image_1676469514615_0.png/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sanbeiicecream.github.io/assets/image_1676469514615_0.png/</guid>
-      <description></description>
-    </item>
-    
-    
     
   </channel>
 </rss>
