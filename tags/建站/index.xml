@@ -25,7 +25,7 @@
       <pubDate>Sun, 19 Feb 2023 09:51:19 +0000</pubDate>
       
       <guid>https://sanbeiicecream.github.io/posts/%E5%B0%86papermod%E4%B8%BB%E9%A2%98%E7%9A%84%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87%E7%A7%BB%E5%8A%A8%E5%88%B0%E5%8F%B3%E4%BE%A7/</guid>
-      <description>上面图片占用的面积太大了，需要调整一下放在右侧 修改文件layouts =&amp;gt; _default =&amp;gt; list.html 定位到关键代码 &amp;lt;article class=&amp;#34;{{ $class }}&amp;#34;&amp;gt; {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }} {{- partial &amp;#34;cover.html&amp;#34; (dict &amp;#34;cxt&amp;#34; . &amp;#34;IsHome&amp;#34; true &amp;#34;isHidden&amp;#34; $isHidden) }} &amp;lt;header class=&amp;#34;entry-header&amp;#34;&amp;gt;</description>
+      <description>修改文件都是用的同级覆盖方式，没有修改themes里面的文件 上面图片占用的面积太大了，需要调整一下放在右侧 修改文件layouts =&amp;gt; _default =&amp;gt; list.html 定位</description>
     </item>
     
     <item>
