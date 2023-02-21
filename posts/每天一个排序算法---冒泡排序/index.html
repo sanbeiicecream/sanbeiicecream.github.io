@@ -57,13 +57,13 @@
 </noscript><meta property="og:title" content="每天一个排序算法 ---冒泡排序" />
 <meta property="og:description" content="冒泡排序比较所有相邻的两个项，如果第一个比第二个大，则交换它们。 元素项向后移动至正确的顺序 就好像气泡升至表面一样，从一个小气泡慢慢变大，交换" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/" /><meta property="og:image" content="https://sanbeiicecream.github.io/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/" />
+<meta property="og:image" content="https://image.jysgdyc.top:443/blog-images/%E5%BA%8F%E5%88%97%2002.gif" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-02-21T15:29:59+00:00" />
 <meta property="article:modified_time" content="2023-02-21T15:29:59+00:00" />
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://sanbeiicecream.github.io/papermod-cover.png"/>
-
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://image.jysgdyc.top:443/blog-images/%E5%BA%8F%E5%88%97%2002.gif" />
 <meta name="twitter:title" content="每天一个排序算法 ---冒泡排序"/>
 <meta name="twitter:description" content="冒泡排序比较所有相邻的两个项，如果第一个比第二个大，则交换它们。 元素项向后移动至正确的顺序 就好像气泡升至表面一样，从一个小气泡慢慢变大，交换"/>
 
@@ -98,10 +98,10 @@
   "keywords": [
     "算法"
   ],
-  "articleBody": "冒泡排序比较所有相邻的两个项，如果第一个比第二个大，则交换它们。 元素项向后移动至正确的顺序 就好像气泡升至表面一样，从一个小气泡慢慢变大，交换的过程就可以类比成变大的过程，所以叫冒泡排序。 简化： 有n个数 需要比较n轮 每轮需要比较n - 1次\nlet array = [5,4,3,2,1] for(let i = 0; i \u003c array.length; i++){ for(let j = 0; j \u003c array.length - 1; j++){ if(array[j] \u003e array [j+1]){ [array[j],array[j+1]] = [array[j+1],array[j]]\t//解构赋值 } } } console.log(array) 优化： 每轮比较后，最大的数占了一个位置，所以下一轮比较的次数可以比上一轮少一次\nlet array = [5,4,3,2,1] for(let i = 0; i \u003c array.length; i++){ for(let j = 0; j \u003c array.length - i - 1; j++){ if(array[j] \u003e array [j+1]){ [array[j],array[j+1]] = [array[j+1],array[j]]\t//解构赋值 } } } console.log(array) 冒泡排序与其他排序算法相比，是最符合大脑直观感受的，也是最简单的，但是与其他排序算法比较，也是时间复杂度（O^2）最高的。\n",
+  "articleBody": "冒泡排序比较所有相邻的两个项，如果第一个比第二个大，则交换它们。 元素项向后移动至正确的顺序 就好像气泡升至表面一样，从一个小气泡慢慢变大，交换的过程就可以类比成变大的过程，所以叫冒泡排序。\n简化： 有n个数 需要比较n轮 每轮需要比较n - 1次\nlet array = [5,4,3,2,1] for(let i = 0; i \u003c array.length; i++){ for(let j = 0; j \u003c array.length - 1; j++){ if(array[j] \u003e array [j+1]){ [array[j],array[j+1]] = [array[j+1],array[j]]\t//解构赋值 } } } console.log(array) 优化： 每轮比较后，最大的数占了一个位置，所以下一轮比较的次数可以比上一轮少一次\nlet array = [5,4,3,2,1] for(let i = 0; i \u003c array.length; i++){ for(let j = 0; j \u003c array.length - i - 1; j++){ if(array[j] \u003e array [j+1]){ [array[j],array[j+1]] = [array[j+1],array[j]]\t//解构赋值 } } } console.log(array) 冒泡排序与其他排序算法相比，是最符合大脑直观感受的，也是最简单的，但是与其他排序算法比较，也是时间复杂度（O^2）最高的。\n",
   "wordCount" : "296",
   "inLanguage": "zh",
-  "datePublished": "2023-02-21T15:29:59.286Z",
+  "image":"https://image.jysgdyc.top:443/blog-images/%E5%BA%8F%E5%88%97%2002.gif","datePublished": "2023-02-21T15:29:59.286Z",
   "dateModified": "2023-02-21T15:29:59.286Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -194,12 +194,13 @@
 
 </div>
   </header> 
+<figure class="entry-cover"><img loading="lazy" src="https://image.jysgdyc.top:443/blog-images/%E5%BA%8F%E5%88%97%2002.gif" alt="冒泡排序">
+        <p>冒泡排序</p>
+</figure>
   <div class="post-content"><p>冒泡排序比较所有相邻的两个项，如果第一个比第二个大，则交换它们。
 元素项向后移动至正确的顺序
-<strong>就好像气泡升至表面一样</strong>，从一个小气泡慢慢变大，交换的过程就可以类比成变大的过程，所以叫冒泡排序。
-<img loading="lazy" src="https://image.jysgdyc.top:443/blog-images/%E5%BA%8F%E5%88%97%2002.gif" alt="序列 02.gif"  />
-
-简化：
+<strong>就好像气泡升至表面一样</strong>，从一个小气泡慢慢变大，交换的过程就可以类比成变大的过程，所以叫冒泡排序。</p>
+<p>简化：
 有n个数
 需要比较n轮
 每轮需要比较n - 1次</p>
