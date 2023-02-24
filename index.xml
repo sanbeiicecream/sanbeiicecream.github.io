@@ -9,7 +9,16 @@
       <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Feb 2023 15:05:39 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 15:29:37 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>每天一个排序算法 ---插入排序</title>
+      <link>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/</link>
+      <pubDate>Thu, 23 Feb 2023 15:29:37 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/</guid>
+      <description>插入排序每次排一个数组项，以此方式构建最后的排序数组。 每次排的数组项依次增加1，第一次需要排序的数组项为1，第二次为2，直到需要排序数组的长</description>
+    </item>
+    
     <item>
       <title>每天一个排序算法 ---选择排序</title>
       <link>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</link>
