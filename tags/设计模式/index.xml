@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>设计模式 on sanbeiicecream</title>
+    <link>https://sanbeiicecream.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
+    <description>Recent content in 设计模式 on sanbeiicecream</description>
+    <image>
+      <url>https://sanbeiicecream.github.io/papermod-cover.png</url>
+      <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 08 Apr 2023 02:26:17 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>适配器模式</title>
+      <link>https://sanbeiicecream.github.io/posts/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Sat, 08 Apr 2023 02:26:17 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</guid>
+      <description>最近在使用axios时发现当出现400时控制台会打印 于是决定去看看axios源码中会把哪些响应状态码reject出来 1 2 3 4 5 6 7 8 9 10 11 12</description>
+    </item>
+    
+  </channel>
+</rss>
