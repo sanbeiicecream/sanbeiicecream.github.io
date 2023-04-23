@@ -9,7 +9,16 @@
       <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 08 Apr 2023 02:26:17 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Apr 2023 16:15:01 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware使用docker安装EasyConnection</title>
+      <link>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8vmware%E5%AE%89%E8%A3%85docker%E8%BF%90%E8%A1%8Ceasyconnection/</link>
+      <pubDate>Sat, 22 Apr 2023 16:15:01 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8vmware%E5%AE%89%E8%A3%85docker%E8%BF%90%E8%A1%8Ceasyconnection/</guid>
+      <description>公司内网的Jenkins需要使用EasyConnection才能访问，但是这软件有点流氓 在自己电脑上是未开源的代理软件一概不敢使用怕有后门，</description>
+    </item>
+    
     <item>
       <title>适配器模式</title>
       <link>https://sanbeiicecream.github.io/posts/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</link>
