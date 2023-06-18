@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sanbeiicecream.github.io/tags/docker/</loc>
-    <lastmod>2023-04-22T16:15:01+00:00</lastmod>
+    <loc>https://sanbeiicecream.github.io/tags/centos/</loc>
+    <lastmod>2023-06-18T17:40:01+00:00</lastmod>
+  </url><url>
+    <loc>https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18&#43;-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/</loc>
+    <lastmod>2023-06-18T17:40:01+00:00</lastmod>
+  </url><url>
+    <loc>https://sanbeiicecream.github.io/tags/node/</loc>
+    <lastmod>2023-06-18T17:40:01+00:00</lastmod>
   </url><url>
     <loc>https://sanbeiicecream.github.io/posts/</loc>
-    <lastmod>2023-04-22T16:15:01+00:00</lastmod>
+    <lastmod>2023-06-18T17:40:01+00:00</lastmod>
   </url><url>
     <loc>https://sanbeiicecream.github.io/</loc>
-    <lastmod>2023-04-22T16:15:01+00:00</lastmod>
+    <lastmod>2023-06-18T17:40:01+00:00</lastmod>
   </url><url>
     <loc>https://sanbeiicecream.github.io/tags/</loc>
+    <lastmod>2023-06-18T17:40:01+00:00</lastmod>
+  </url><url>
+    <loc>https://sanbeiicecream.github.io/tags/docker/</loc>
     <lastmod>2023-04-22T16:15:01+00:00</lastmod>
   </url><url>
     <loc>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8vmware%E5%AE%89%E8%A3%85docker%E8%BF%90%E8%A1%8Ceasyconnection/</loc>
@@ -72,8 +81,6 @@
     <lastmod>2023-02-02T23:41:59+08:00</lastmod>
   </url><url>
     <loc>https://sanbeiicecream.github.io/assets/image_1676469514615_0.png/</loc>
-  </url><url>
-    <loc>https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18&#43;-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/</loc>
   </url><url>
     <loc>https://sanbeiicecream.github.io/archives/</loc>
   </url><url>

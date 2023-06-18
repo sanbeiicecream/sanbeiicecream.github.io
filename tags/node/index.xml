@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>node on sanbeiicecream</title>
+    <link>https://sanbeiicecream.github.io/tags/node/</link>
+    <description>Recent content in node on sanbeiicecream</description>
+    <image>
+      <url>https://sanbeiicecream.github.io/papermod-cover.png</url>
+      <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 18 Jun 2023 17:40:01 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>centos7 安装node18&#43; 解决报错</title>
+      <link>https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18&#43;-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/</link>
+      <pubDate>Sun, 18 Jun 2023 17:40:01 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18&#43;-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/</guid>
+      <description>最近有个库需要使用node18+版本，所以在node上安装了nvm https://github.com/nvm-sh/nvm 1 2 3 4 5 6 7 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash command -v nvm nvm ls-remote nvm install 【版本】 npm -v时提示有几个库的版本</description>
+    </item>
+    
+  </channel>
+</rss>

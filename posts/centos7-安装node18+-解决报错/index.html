@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>sanbeiicecream</title>
-<meta name="keywords" content="">
+<title>centos7 安装node18&#43; 解决报错 | sanbeiicecream</title>
+<meta name="keywords" content="centos, node">
 <meta name="description" content="最近有个库需要使用node18&#43;版本，所以在node上安装了nvm https://github.com/nvm-sh/nvm 1 2 3 4 5 6 7 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash command -v nvm nvm ls-remote nvm install 【版本】 npm -v时提示有几个库的版本">
 <meta name="author" content="">
 <link rel="canonical" href="https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18&#43;-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/">
@@ -56,17 +56,17 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="" />
+</noscript><meta property="og:title" content="centos7 安装node18&#43; 解决报错" />
 <meta property="og:description" content="最近有个库需要使用node18&#43;版本，所以在node上安装了nvm https://github.com/nvm-sh/nvm 1 2 3 4 5 6 7 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash command -v nvm nvm ls-remote nvm install 【版本】 npm -v时提示有几个库的版本" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18&#43;-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/" /><meta property="og:image" content="https://sanbeiicecream.github.io/papermod-cover.png"/><meta property="article:section" content="posts" />
-
-
+<meta property="article:published_time" content="2023-06-18T17:40:01+00:00" />
+<meta property="article:modified_time" content="2023-06-18T17:40:01+00:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://sanbeiicecream.github.io/papermod-cover.png"/>
 
-<meta name="twitter:title" content=""/>
+<meta name="twitter:title" content="centos7 安装node18&#43; 解决报错"/>
 <meta name="twitter:description" content="最近有个库需要使用node18&#43;版本，所以在node上安装了nvm https://github.com/nvm-sh/nvm 1 2 3 4 5 6 7 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash command -v nvm nvm ls-remote nvm install 【版本】 npm -v时提示有几个库的版本"/>
 
 
@@ -84,7 +84,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "",
+      "name": "centos7 安装node18+ 解决报错",
       "item": "https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18+-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/"
     }
   ]
@@ -94,17 +94,17 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "",
-  "name": "",
+  "headline": "centos7 安装node18+ 解决报错",
+  "name": "centos7 安装node18\u002b 解决报错",
   "description": "最近有个库需要使用node18+版本，所以在node上安装了nvm https://github.com/nvm-sh/nvm 1 2 3 4 5 6 7 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash command -v nvm nvm ls-remote nvm install 【版本】 npm -v时提示有几个库的版本",
   "keywords": [
-    
+    "centos", "node"
   ],
   "articleBody": "最近有个库需要使用node18+版本，所以在node上安装了nvm\nhttps://github.com/nvm-sh/nvm\n1 2 3 4 5 6 7 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash command -v nvm nvm ls-remote nvm install 【版本】 npm -v时提示有几个库的版本没有找到\n看提示是需要安装glibc-2.28版本才能使用\n1 2 3 4 5 6 7 8 # 下载包 wget http://ftp.gnu.org/gnu/glibc/glibc-2.28.tar.gz # 解压 tar xf glibc-2.28.tar.gz # 进入源码里面 创建build 文件夹 并执行配置命令 cd glibc-2.28/ \u0026\u0026 mkdir build \u0026\u0026 cd build ../configure --prefix=/usr --disable-profile --enable-add-ons --with-headers=/usr/include --with-binutils=/usr/bin 有可能会提示工具太旧了，先升级工具\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 # 升级GCC(默认为4 升级为8) yum install -y centos-release-scl yum install -y devtoolset-8-gcc* mv /usr/bin/gcc /usr/bin/gcc-4.8.5 ln -s /opt/rh/devtoolset-8/root/bin/gcc /usr/bin/gcc mv /usr/bin/g++ /usr/bin/g++-4.8.5 ln -s /opt/rh/devtoolset-8/root/bin/g++ /usr/bin/g++ # 升级 make(默认为3 升级为4) wget http://ftp.gnu.org/gnu/make/make-4.3.tar.gz tar -xzvf make-4.3.tar.gz \u0026\u0026 cd make-4.3/ ./configure --prefix=/usr/local/make make \u0026\u0026 make install cd /usr/bin/ \u0026\u0026 mv make make.bak ln -sv /usr/local/make/bin/make /usr/bin/make 升级完成后可能还会提示这个错，查看bison版本\n没有找到，先安装\n1 yum install -y bison 继续配置编译选项\n1 2 cd /root/glibc-2.28/build ../configure --prefix=/usr --disable-profile --enable-add-ons --with-headers=/usr/include --with-binutils=/usr/bin 编译安装\n1 make \u0026\u0026 make install 开始疯狂编译\n可能会报错\n打印包\n1 strings /lib64/libc.so.6 | grep GLIBC 发现安装上了 现在只有三个报错了\n在git上找到一个解决方法 ，需要安装Anaconda，里面的库是正确的\n1 2 3 4 5 6 7 8 9 # 需要完全安装，有个引导安装的提示 wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh sh Anaconda3-2019.07-Linux-x86_64.sh # 完成安装后，安装文件会在root目录下 cp anaconda3/lib/libstdc++.so.6.0.26 /usr/lib64 rm /usr/lib64/libstdc++.so.6 ln -s /usr/lib64/libstdc++.so.6.0.26 /usr/lib64/libstdc++.so.6 成功运行！\n",
   "wordCount" : "465",
   "inLanguage": "zh",
-  "datePublished": "0001-01-01T00:00:00Z",
-  "dateModified": "0001-01-01T00:00:00Z",
+  "datePublished": "2023-06-18T17:40:01.85Z",
+  "dateModified": "2023-06-18T17:40:01.85Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18+-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/"
@@ -190,9 +190,9 @@
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://sanbeiicecream.github.io/">主页</a>&nbsp;»&nbsp;<a href="https://sanbeiicecream.github.io/posts/">Posts</a></div>
     <h1 class="post-title">
-      
+      centos7 安装node18&#43; 解决报错
     </h1>
-    <div class="post-meta">1 分钟&nbsp;|&nbsp;465 字&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/centos7%20%e5%ae%89%e8%a3%85node18&#43;%20%e8%a7%a3%e5%86%b3%e6%8a%a5%e9%94%99.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2023-06-18 17:40:01.85 +0000 UTC'>2023年6月18日</span>&nbsp;|&nbsp;1 分钟&nbsp;|&nbsp;465 字&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/centos7%20%e5%ae%89%e8%a3%85node18&#43;%20%e8%a7%a3%e5%86%b3%e6%8a%a5%e9%94%99.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> 
@@ -370,12 +370,14 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://sanbeiicecream.github.io/tags/centos/">centos</a></li>
+      <li><a href="https://sanbeiicecream.github.io/tags/node/">node</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://sanbeiicecream.github.io/posts/blog-test/">
-    <span class="title">« 上一篇</span>
+  <a class="next" href="https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8vmware%E5%AE%89%E8%A3%85docker%E8%BF%90%E8%A1%8Ceasyconnection/">
+    <span class="title">下一篇 »</span>
     <br>
-    <span>Blog Test</span>
+    <span>VMware使用docker安装EasyConnection</span>
   </a>
 </nav>
 
