@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 18 Jun 2023 17:40:01 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 02:36:52 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>minio</title>
+      <link>https://sanbeiicecream.github.io/tags/minio/</link>
+      <pubDate>Wed, 28 Jun 2023 02:36:52 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/tags/minio/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>centos</title>
       <link>https://sanbeiicecream.github.io/tags/centos/</link>
