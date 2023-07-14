@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 28 Jun 2023 02:36:52 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jul 2023 01:14:34 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker容器之间网络通信</title>
+      <link>https://sanbeiicecream.github.io/posts/docker%E5%AE%B9%E5%99%A8%E4%B9%8B%E9%97%B4%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/</link>
+      <pubDate>Fri, 14 Jul 2023 01:14:34 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/docker%E5%AE%B9%E5%99%A8%E4%B9%8B%E9%97%B4%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/</guid>
+      <description>https://docs.docker.com/network/ 1 2 # 查看docker网络 docker network ls 在创建容器时，使用-P -p 可以端口映射与宿主机进行通信；如果多个容器使用同一个主机端口创建容器会报错 容器之间</description>
+    </item>
+    
     <item>
       <title>S3Error - The request signature we calculated does not match the signature you provided. Check your key and signing method</title>
       <link>https://sanbeiicecream.github.io/posts/s3error-the-request-signature-we-calculated-does-not-match-the-signature-you-provided.-check-your-key-and-signing-method/</link>

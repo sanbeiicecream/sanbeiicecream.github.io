@@ -100,8 +100,8 @@
   "keywords": [
     "算法"
   ],
-  "articleBody": " 1 2 “要理解递归，首先要理解递归。” ——佚名 递归是一种解决问题的方法，它从解决问题的各个小部分开始，直到解决最初的大问题。递归通常涉及函数调用自身。\n概念就这么简单，那么直接上手实战试试。\n阶乘 数 n 的阶乘，定义为 n!，表示从1到n的整数的乘积。 5 的阶乘表示为 5!，和 5 × 4 × 3 × 2 × 1 相等，结果是 120。\n1 2 3 4 5 6 7 8 9 function factorialIterative(number) { if (number \u003c 0) return undefined; let total = 1; for (let n = number; n \u003e 1; n--) { total = total * n; } return total; } console.log(factorialIterative(5)); 斐波那契数列 斐波那契数列是另一个可以用递归解决的问题。它是一个由 0、1、1、2、3、5、8、13、21、34 等数组成的序列。数 2 由 1 + 1 得到，数 3 由 1 + 2 得到，数 5 由 2 + 3 得到，以此类推。\n1 2 3 4 5 6 7 8 9 10 11 12 13 function fibonacciIterative(n) { if (n \u003c 1) return 0; if (n \u003c= 2) return 1; let fibNMinus2 = 0; let fibNMinus1 = 1; let fibN = n; for (let i = 2; i \u003c= n; i++) { // n \u003e= 2 fibN = fibNMinus1 + fibNMinus2; // f(n-1) + f(n-2) fibNMinus2 = fibNMinus1; fibNMinus1 = fibN; } return fibN; } 会了吗？不，还完全不会 函数自己调自己只是递归的一个特征而已，这一步只要是学会了基本语法都能写出来，但是在递归中有很多细节是没有能够注意到。\n什么情况下用递归 开始递归的位置在哪里 结束的条件的什么 递-\u003e归之间的值应该传递什么 递\u003c-归之间的值应该传递什么 … 不信可以看个难一点的问题\n汉诺塔（Tower of Hanoi） 1 2 3 4 5 6 是根据一个传说形成的数学问题： 有三根杆子A，B，C。A杆上有 N 个 (N\u003e1) 穿孔圆盘，盘的尺寸由下到上依次变小。要求按下列规则将所有圆盘移至 C 杆： 1. 每次只能移动一个圆盘； 2. 大盘不能叠在小盘上面。 根据上面两个例子的经验，在这个问题就毫无思路了\n1 // ??? 每日一个排序算法写到了归并排序后就没写快速排序的原因就是因为快排需要深刻得递归理解才能理解其精华，很可惜目前我还没掌握快排的精髓，所以，宁缺毋滥。\n快速排序 计数排序 桶排序 基数排序 ",
-  "wordCount" : "729",
+  "articleBody": " 1 2 “要理解递归，首先要理解递归。” ——佚名 递归是一种解决问题的方法，它从解决问题的各个小部分开始，直到解决最初的大问题。递归通常涉及函数调用自身。\n概念就这么简单，那么直接上手实战试试。\n阶乘 数 n 的阶乘，定义为 n!，表示从1到n的整数的乘积。 5 的阶乘表示为 5!，和 5 × 4 × 3 × 2 × 1 相等，结果是 120。\n1 2 3 4 5 6 7 8 9 function factorialIterative(number) { if (number \u003c 0) return undefined; let total = 1; for (let n = number; n \u003e 1; n--) { total = total * n; } return total; } console.log(factorialIterative(5)); 斐波那契数列 斐波那契数列是另一个可以用递归解决的问题。它是一个由 0、1、1、2、3、5、8、13、21、34 等数组成的序列。数 2 由 1 + 1 得到，数 3 由 1 + 2 得到，数 5 由 2 + 3 得到，以此类推。\n1 2 3 4 5 6 7 8 9 10 11 12 13 function fibonacciIterative(n) { if (n \u003c 1) return 0; if (n \u003c= 2) return 1; let fibNMinus2 = 0; let fibNMinus1 = 1; let fibN = n; for (let i = 2; i \u003c= n; i++) { // n \u003e= 2 fibN = fibNMinus1 + fibNMinus2; // f(n-1) + f(n-2) fibNMinus2 = fibNMinus1; fibNMinus1 = fibN; } return fibN; } 会了吗？不，还完全不会 函数自己调自己只是递归的一个特征而已，这一步只要是学会了基本语法都能写出来，但是在递归中有很多细节是没有能够注意到。\n什么情况下用递归 开始递归的位置在哪里 结束的条件的什么 递-\u003e归之间的值应该传递什么 递\u003c-归之间的值应该传递什么 … 不信可以看个难一点的问题\n汉诺塔（Tower of Hanoi） 1 2 3 4 5 6 是根据一个传说形成的数学问题： 有三根杆子A，B，C。A杆上有 N 个 (N\u003e1) 穿孔圆盘，盘的尺寸由下到上依次变小。要求按下列规则将所有圆盘移至 C 杆： 1. 每次只能移动一个圆盘； 2. 大盘不能叠在小盘上面。 根据上面两个例子的经验，在这个问题就毫无思路了\n1 // ??? 每日一个排序算法写到了归并排序后就没写快速排序的原因就是因为快排需要深刻得递归理解才能理解其精华。\n快速排序 计数排序 桶排序 基数排序 ",
+  "wordCount" : "705",
   "inLanguage": "zh",
   "image":"https://image.jysgdyc.top:443/blog-images/1-1F412211310.jpg","datePublished": "2023-03-08T16:25:20.747Z",
   "dateModified": "2023-03-08T16:25:20.747Z",
@@ -192,7 +192,7 @@
     <h1 class="post-title">
       理解递归
     </h1>
-    <div class="post-meta"><span title='2023-03-08 16:25:20.747 +0000 UTC'>2023年3月8日</span>&nbsp;|&nbsp;2 分钟&nbsp;|&nbsp;729 字&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/%e7%90%86%e8%a7%a3%e9%80%92%e5%bd%92.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2023-03-08 16:25:20.747 +0000 UTC'>2023年3月8日</span>&nbsp;|&nbsp;2 分钟&nbsp;|&nbsp;705 字&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/%e7%90%86%e8%a7%a3%e9%80%92%e5%bd%92.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> 
@@ -394,7 +394,7 @@
 <pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// ???
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><p>每日一个排序算法写到了归并排序后就没写快速排序的原因就是因为快排需要<strong>深刻</strong>得递归理解才能理解其精华，很可惜目前我还没掌握快排的精髓，所以，宁缺毋滥。</p>
+</div><p>每日一个排序算法写到了归并排序后就没写快速排序的原因就是因为快排需要<strong>深刻</strong>得递归理解才能理解其精华。</p>
 <ul>
 <li><input disabled="" type="checkbox"> 快速排序</li>
 <li><input disabled="" type="checkbox"> 计数排序</li>
