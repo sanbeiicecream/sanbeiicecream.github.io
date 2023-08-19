@@ -100,8 +100,8 @@
   "keywords": [
     "centos", "日常"
   ],
-  "articleBody": "官方推荐使用snap安装\nUnless you have very specific requirements, we kindly suggest that you use the installation instructions for your system found at https://certbot.eff.org/instructions.\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 # 查看系统版本 cat /etc/centos-release # 安装snapd yum install snapd # 安装后，需要启用管理snap通信套接字的systemd unit systemctl enable --now snapd.socket # 为了启用classic snap的支持，需要创建如下软连接 ln -s /var/lib/snapd/snap /snap # 重启后 snap install core snap refresh core # 安装certbot # 验证方式 # https://letsencrypt.org/zh-cn/docs/challenge-types/ # 建议使用dns txt记录验证 # https://eff-certbot.readthedocs.io/en/stable/using.html#manual certbot --manual certonly --preferred-challenges=dns # 根据certbot提示，会让输入用户名与邮箱 # 然后输入需要解析的域名，certbot就会输出一个txt内容 # 此时需要把这个内容放到指定的txt解析域名下（一般是_acme-challenge） # 查看txt域名解析，解析值对上certbot输出的内容后，再下一步 dig TXT # 查看证书 certbot certificates # 续订 certbot renew ",
-  "wordCount" : "351",
+  "articleBody": "官方推荐使用snap安装\nUnless you have very specific requirements, we kindly suggest that you use the installation instructions for your system found at https://certbot.eff.org/instructions.\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 # 查看系统版本 cat /etc/centos-release # 安装snapd yum install snapd # 安装后，需要启用管理snap通信套接字的systemd unit systemctl enable --now snapd.socket # 为了启用classic snap的支持，需要创建如下软连接 ln -s /var/lib/snapd/snap /snap # 重启后 snap install core snap refresh core # 安装certbot snap install --classic certbot ln -s /snap/bin/certbot /usr/bin/certbot # 验证方式 # https://letsencrypt.org/zh-cn/docs/challenge-types/ # 建议使用dns txt记录验证 # https://eff-certbot.readthedocs.io/en/stable/using.html#manual certbot --manual certonly --preferred-challenges=dns # 根据certbot提示，会让输入用户名与邮箱 # 然后输入需要解析的域名，certbot就会输出一个txt内容 # 此时需要把这个内容放到指定的txt解析域名下（一般是_acme-challenge） # 查看txt域名解析，解析值对上certbot输出的内容后，再下一步 dig TXT # 查看证书 certbot certificates # 续订 certbot renew ",
+  "wordCount" : "361",
   "inLanguage": "zh",
   "image":"https://certbot.eff.org/assets/Certbot-solid-c4e500f9953fc8ee1d38cb0b22778163602a82cb2b39a5bc89211315c5c877c9.svg","datePublished": "2023-07-30T04:28:22.412Z",
   "dateModified": "2023-07-30T04:28:22.412Z",
@@ -197,7 +197,7 @@
     <h1 class="post-title">
       使用certbot申请证书
     </h1>
-    <div class="post-meta"><span title='2023-07-30 04:28:22.412 +0000 UTC'>2023年7月30日</span>&nbsp;|&nbsp;1 分钟&nbsp;|&nbsp;351 字&nbsp;|&nbsp;<a href="https://github.com/sanbeiicecream/run-blog/tree/main/content/posts/%e4%bd%bf%e7%94%a8certbot%e7%94%b3%e8%af%b7%e8%af%81%e4%b9%a6.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2023-07-30 04:28:22.412 +0000 UTC'>2023年7月30日</span>&nbsp;|&nbsp;1 分钟&nbsp;|&nbsp;361 字&nbsp;|&nbsp;<a href="https://github.com/sanbeiicecream/run-blog/tree/main/content/posts/%e4%bd%bf%e7%94%a8certbot%e7%94%b3%e8%af%b7%e8%af%81%e4%b9%a6.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> 
@@ -248,6 +248,8 @@ Unless you have very specific requirements, we kindly suggest that you use the i
 </span><span class="lnt" id="hl-0-36"><a class="lnlinks" href="#hl-0-36">36</a>
 </span><span class="lnt" id="hl-0-37"><a class="lnlinks" href="#hl-0-37">37</a>
 </span><span class="lnt" id="hl-0-38"><a class="lnlinks" href="#hl-0-38">38</a>
+</span><span class="lnt" id="hl-0-39"><a class="lnlinks" href="#hl-0-39">39</a>
+</span><span class="lnt" id="hl-0-40"><a class="lnlinks" href="#hl-0-40">40</a>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># 查看系统版本</span>
@@ -266,8 +268,10 @@ Unless you have very specific requirements, we kindly suggest that you use the i
 </span></span><span class="line"><span class="cl">snap install core
 </span></span><span class="line"><span class="cl">snap refresh core
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># 安装certbot</span>
+</span></span><span class="line"><span class="cl">snap install --classic certbot
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ln -s /snap/bin/certbot /usr/bin/certbot
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># 验证方式</span>
 </span></span><span class="line"><span class="cl"><span class="c1"># https://letsencrypt.org/zh-cn/docs/challenge-types/</span>
