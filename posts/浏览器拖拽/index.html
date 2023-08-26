@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>浏览器拖拽 | sanbeiicecream</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="Web">
 <meta name="description" content="mdn 使用WebApi功能实现 好处：这个拖拽是浏览器级别的功能，可以与其他应用交互 小缺陷：样式不能很好自定义，比如拖拽到放置区的鼠标的图标只有4">
 <meta name="author" content="">
 <link rel="canonical" href="https://sanbeiicecream.github.io/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%96%E6%8B%BD/">
@@ -98,7 +98,7 @@
   "name": "浏览器拖拽",
   "description": "mdn 使用WebApi功能实现 好处：这个拖拽是浏览器级别的功能，可以与其他应用交互 小缺陷：样式不能很好自定义，比如拖拽到放置区的鼠标的图标只有4",
   "keywords": [
-    
+    "Web"
   ],
   "articleBody": "mdn 使用WebApi功能实现\n好处：这个拖拽是浏览器级别的功能，可以与其他应用交互\n小缺陷：样式不能很好自定义，比如拖拽到放置区的鼠标的图标只有4种样式\ncopy：在新位置生成源项的副本 move：将项目移动到新位置 link：在新位置建立源项目的链接 none： 项目可能禁止拖放（默认） 确定什么是可拖拽的 让一个元素被拖拽需要添加 draggable 属性\n1 \u003cp id=\"p1\" draggable=\"true\"\u003eThis element is draggable.\u003c/p\u003e 怎么定义一个放置区 当拖拽一个项目到 HTML 元素中时，浏览器默认不会有任何响应。想要让一个元素变成可释放区域，该元素必须设置ondragover和ondrop事件处理程序属性\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 \u003cscript\u003e function dragover_handler(ev) { ev.preventDefault(); ev.dataTransfer.dropEffect = \"move\"; } function drop_handler(ev) { ev.preventDefault(); // Get the id of the target and add the moved element to the target's DOM var data = ev.dataTransfer.getData(\"text/plain\"); ev.target.appendChild(document.getElementById(data)); } \u003c/script\u003e \u003cp id=\"target\" ondrop=\"drop_handler(event)\" ondragover=\"dragover_handler(event)\"\u003e Drop Zone \u003c/p\u003e 数据交互 拖拽与释放的数据交互在于drag事件上的dataTransfer对象\nDataTransfer 对象用于保存拖动并放下（drag and drop）过程中的数据。它可以保存一项或多项数据，这些数据项可以是一种或者多种数据类型\n每个数据项都是一个 string 类型，典型的 MIME 类型，如：text/html\n（也可以是其他随机key，不是MIME的key，会影响到拖拽到其他程序显示的值，直接不显示）\n拖放到其他程序时，默认取的值是最后一个设置值\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 function dragstart_handler(ev) { // 添加拖拽数据 ev.dataTransfer.setData(\"text/plain\", ev.target.innerText); ev.dataTransfer.setData(\"text/html\", ev.target.outerHTML); ev.dataTransfer.setData( \"text/uri-list\", ev.target.ownerDocument.location.href, ); } // 释放事件获取值 function drop_handler(ev) { const data = ev.dataTransfer.getData(\"text/plain\"); } 其他 定义拖拽图像\n控制台需要关闭才能显示\n1 2 3 4 5 6 7 8 function dragstart_handler(ev) { // Create an image and then use it for the drag image. // NOTE: change \"example.gif\" to a real image URL or the image // will not be created and the default drag image will be used. var img = new Image(); img.src = \"example.gif\"; ev.dataTransfer.setDragImage(img, 0, 0); } ",
   "wordCount" : "641",
@@ -425,6 +425,7 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://sanbeiicecream.github.io/tags/web/">Web</a></li>
     </ul>
 <nav class="paginav">
   <a class="next" href="https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8certbot%E7%94%B3%E8%AF%B7%E8%AF%81%E4%B9%A6/">

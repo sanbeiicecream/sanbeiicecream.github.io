@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web on sanbeiicecream</title>
+    <link>https://sanbeiicecream.github.io/tags/web/</link>
+    <description>Recent content in Web on sanbeiicecream</description>
+    <image>
+      <url>https://sanbeiicecream.github.io/papermod-cover.png</url>
+      <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 25 Aug 2023 05:48:08 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>浏览器拖拽</title>
+      <link>https://sanbeiicecream.github.io/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%96%E6%8B%BD/</link>
+      <pubDate>Fri, 25 Aug 2023 05:48:08 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%96%E6%8B%BD/</guid>
+      <description>mdn 使用WebApi功能实现 好处：这个拖拽是浏览器级别的功能，可以与其他应用交互 小缺陷：样式不能很好自定义，比如拖拽到放置区的鼠标的图标只有4</description>
+    </item>
+    
+  </channel>
+</rss>
