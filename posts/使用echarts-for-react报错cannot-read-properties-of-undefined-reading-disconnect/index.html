@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>使用echarts-for-react报错：Cannot read properties of undefined (reading &#39;disconnect&#39;) | sanbeiicecream</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="Web">
 <meta name="description" content="结论：ECharts版本太高可能导致这个报错 源码地址 1 2 3 4 5 6 import ReactEcharts from &#39;echarts-for-react&#39; &lt;ReactEcharts option={} style={{ height: &#39;350px&#39;, width: &#39;100%&#39; }} /&gt; 依赖 1 2 3 4 &#34;dependencies&#34;: { ... &#34;size-sensor&#34;: &#34;^1.0.0&#34; // DOM 元素尺寸监听器，当元素尺">
 <meta name="author" content="">
 <link rel="canonical" href="https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8echarts-for-react%E6%8A%A5%E9%94%99cannot-read-properties-of-undefined-reading-disconnect/">
@@ -98,7 +98,7 @@
   "name": "使用echarts-for-react报错：Cannot read properties of undefined (reading \u0027disconnect\u0027)",
   "description": "结论：ECharts版本太高可能导致这个报错 源码地址 1 2 3 4 5 6 import ReactEcharts from \u0026#39;echarts-for-react\u0026#39; \u0026lt;ReactEcharts option={} style={{ height: \u0026#39;350px\u0026#39;, width: \u0026#39;100%\u0026#39; }} /\u0026gt; 依赖 1 2 3 4 \u0026#34;dependencies\u0026#34;: { ... \u0026#34;size-sensor\u0026#34;: \u0026#34;^1.0.0\u0026#34; // DOM 元素尺寸监听器，当元素尺",
   "keywords": [
-    
+    "Web"
   ],
   "articleBody": "结论：ECharts版本太高可能导致这个报错\n源码地址\n1 2 3 4 5 6 import ReactEcharts from 'echarts-for-react' \u003cReactEcharts option={} style={{ height: '350px', width: '100%' }} /\u003e 依赖\n1 2 3 4 \"dependencies\": { ... \"size-sensor\": \"^1.0.0\" // DOM 元素尺寸监听器，当元素尺寸变化的时候，将会触发回调函数！ }, 查看函数调用栈\n调试代码 resizeObserver.js\n在使用ResizeObserver 对象的dsconnect方法时提示的错误\n可以看见在执行这里时sensor等于undefined，意思是执行到destroy的时候还没有执行bind，所以导致的错误，继续往上层找\nsensorPool里面调用的destroy，但是没有看到bind，继续往上层找\n在上一层的index文件里面找到导出bind的地方，看是哪里引用的，继续往外层找\n在core.js文件里面看见导入的index\n分析 可以知道在EchartsReact组件卸载的时候会调用dispose，这时会判断有没有echartsElement，有的话就调用clear方法\n这个echartsElement是从哪里来的呢？\n1 2 3 4 5 6 7 8 9 10 11 _this.dispose = function () { if (_this.echartsElement) { try { (0, _sizeSensor.clear)(_this.echartsElement); } catch (e) { console.warn(e); } // dispose echarts instance _this.echartsLib.dispose(_this.echartsElement); } }; 在组件render的时候产生的\n这里去查看源码 知道了echartsLib是echarts导出\n1 2 3 4 5 6 7 8 9 10 11 // src/index.js import echarts from 'echarts'; import EchartsReactCore from './core'; // export the Component the echarts Object. export default class EchartsReact extends EchartsReactCore { constructor(props) { super(props); this.echartsLib = echarts; } } 经过调试发现下面这行执行完后触发了componentWillUnmount\n然后执行了dispose()，相当于还没渲染完成就卸载了\n为什么还没渲染完成就卸载组件了？这就是导致报错的原因\n既然是在echats获取实例的时候报错了，这很大程度可能是因为echats内部导致的报错\n查看echarts-for-react的packge.json包\n发现echarts-for-react 2.x版本只支持到4.x版本\n但是在本地项目中安装了5.x版本\n版本冲突导致的问题！\n在npm install的时候也提示了\n总结 发现项目内部依赖报错时，需要先检查一下依赖包依赖的外部包版本（peerDependencies）是否安装正确\n如果有sourcemap可以很好看见打包没有压缩的代码，直接在浏览器上进行断点调试更为方便\n",
   "wordCount" : "872",
@@ -432,6 +432,7 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://sanbeiicecream.github.io/tags/web/">Web</a></li>
     </ul>
 <nav class="paginav">
   <a class="next" href="https://sanbeiicecream.github.io/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%96%E6%8B%BD/">
