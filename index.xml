@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 25 Aug 2023 05:48:08 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 08:14:35 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用echarts-for-react报错：Cannot read properties of undefined (reading &#39;disconnect&#39;)</title>
+      <link>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8echarts-for-react%E6%8A%A5%E9%94%99cannot-read-properties-of-undefined-reading-disconnect/</link>
+      <pubDate>Wed, 30 Aug 2023 08:14:35 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8echarts-for-react%E6%8A%A5%E9%94%99cannot-read-properties-of-undefined-reading-disconnect/</guid>
+      <description>结论：ECharts版本太高可能导致这个报错 源码地址 1 2 3 4 5 6 import ReactEcharts from &amp;#39;echarts-for-react&amp;#39; &amp;lt;ReactEcharts option={} style={{ height: &amp;#39;350px&amp;#39;, width: &amp;#39;100%&amp;#39; }} /&amp;gt; 依赖 1 2 3 4 &amp;#34;dependencies&amp;#34;: { ... &amp;#34;size-sensor&amp;#34;: &amp;#34;^1.0.0&amp;#34; // DOM 元素尺寸监听器，当元素尺</description>
+    </item>
+    
     <item>
       <title>浏览器拖拽</title>
       <link>https://sanbeiicecream.github.io/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%96%E6%8B%BD/</link>
