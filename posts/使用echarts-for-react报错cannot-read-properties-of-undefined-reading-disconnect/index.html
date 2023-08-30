@@ -100,8 +100,8 @@
   "keywords": [
     "Web"
   ],
-  "articleBody": "结论：ECharts版本太高可能导致这个报错\n源码地址\n1 2 3 4 5 6 import ReactEcharts from 'echarts-for-react' \u003cReactEcharts option={} style={{ height: '350px', width: '100%' }} /\u003e 依赖\n1 2 3 4 \"dependencies\": { ... \"size-sensor\": \"^1.0.0\" // DOM 元素尺寸监听器，当元素尺寸变化的时候，将会触发回调函数！ }, 查看函数调用栈\n调试代码 resizeObserver.js\n在使用ResizeObserver 对象的dsconnect方法时提示的错误\n可以看见在执行这里时sensor等于undefined，意思是执行到destroy的时候还没有执行bind，所以导致的错误，继续往上层找\nsensorPool里面调用的destroy，但是没有看到bind，继续往上层找\n在上一层的index文件里面找到导出bind的地方，看是哪里引用的，继续往外层找\n在core.js文件里面看见导入的index\n分析 可以知道在EchartsReact组件卸载的时候会调用dispose，这时会判断有没有echartsElement，有的话就调用clear方法\n这个echartsElement是从哪里来的呢？\n1 2 3 4 5 6 7 8 9 10 11 _this.dispose = function () { if (_this.echartsElement) { try { (0, _sizeSensor.clear)(_this.echartsElement); } catch (e) { console.warn(e); } // dispose echarts instance _this.echartsLib.dispose(_this.echartsElement); } }; 在组件render的时候产生的\n这里去查看源码 知道了echartsLib是echarts导出\n1 2 3 4 5 6 7 8 9 10 11 // src/index.js import echarts from 'echarts'; import EchartsReactCore from './core'; // export the Component the echarts Object. export default class EchartsReact extends EchartsReactCore { constructor(props) { super(props); this.echartsLib = echarts; } } 经过调试发现下面这行执行完后触发了componentWillUnmount\n然后执行了dispose()，相当于还没渲染完成就卸载了\n为什么还没渲染完成就卸载组件了？这就是导致报错的原因\n既然是在echats获取实例的时候报错了，这很大程度可能是因为echats内部导致的报错\n查看echarts-for-react的packge.json包\n发现echarts-for-react 2.x版本只支持到4.x版本\n但是在本地项目中安装了5.x版本\n版本冲突导致的问题！\n在npm install的时候也提示了\n总结 发现项目内部依赖报错时，需要先检查一下依赖包依赖的外部包版本（peerDependencies）是否安装正确\n如果有sourcemap可以很好看见打包没有压缩的代码，直接在浏览器上进行断点调试更为方便\n",
-  "wordCount" : "872",
+  "articleBody": "结论：ECharts版本太高可能导致这个报错\n源码地址\n1 2 3 4 5 6 import ReactEcharts from 'echarts-for-react' \u003cReactEcharts option={} style={{ height: '350px', width: '100%' }} /\u003e 依赖\n1 2 3 4 \"dependencies\": { ... \"size-sensor\": \"^1.0.0\" // DOM 元素尺寸监听器，当元素尺寸变化的时候，将会触发回调函数！ }, 查看函数调用栈\n调试代码 resizeObserver.js\n在使用ResizeObserver 对象的dsconnect方法时提示的错误\n可以看见在执行这里时sensor等于undefined，意思是执行到destroy的时候还没有执行bind，所以导致的错误，继续往上层找\nsensorPool里面调用的destroy，但是没有看到bind，继续往上层找\n在上一层的index文件里面找到导出bind的地方，看是哪里引用的，继续往外层找\n在core.js文件里面看见导入的index\n分析 可以知道在EchartsReact组件卸载的时候会调用dispose，这时会判断有没有echartsElement，有的话就调用clear方法\n这个echartsElement是从哪里来的呢？\n1 2 3 4 5 6 7 8 9 10 11 _this.dispose = function () { if (_this.echartsElement) { try { (0, _sizeSensor.clear)(_this.echartsElement); } catch (e) { console.warn(e); } // dispose echarts instance _this.echartsLib.dispose(_this.echartsElement); } }; 在组件render的时候产生的\n这里去查看源码 知道了echartsLib是echarts导出\n1 2 3 4 5 6 7 8 9 10 11 // src/index.js import echarts from 'echarts'; import EchartsReactCore from './core'; // export the Component the echarts Object. export default class EchartsReact extends EchartsReactCore { constructor(props) { super(props); this.echartsLib = echarts; } } 经过调试发现下面这行执行完后触发了componentWillUnmount\n然后执行了dispose()，相当于还没渲染完成就卸载了\n为什么还没渲染完成就卸载组件了？这就是导致报错的原因\n既然是在echats获取实例的时候报错了，这很大程度可能是因为echats内部导致的报错\n查看echarts-for-react的packagse.json包\n发现echarts-for-react 2.x版本只支持到4.x版本\n但是在本地项目中安装了5.x版本\n版本冲突导致的问题！\n在npm install的时候也提示了\n总结 发现项目内部依赖报错时，需要先检查一下依赖包依赖的外部包版本（peerDependencies）是否安装正确\n如果有sourcemap可以很好看见打包没有压缩的代码，直接在浏览器上进行断点调试更为方便\n",
+  "wordCount" : "874",
   "inLanguage": "zh",
   "datePublished": "2023-08-30T08:14:35.153Z",
   "dateModified": "2023-08-30T08:14:35.153Z",
@@ -197,7 +197,7 @@
     <h1 class="post-title">
       使用echarts-for-react报错：Cannot read properties of undefined (reading &#39;disconnect&#39;)
     </h1>
-    <div class="post-meta"><span title='2023-08-30 08:14:35.153 +0000 UTC'>2023年8月30日</span>&nbsp;|&nbsp;2 分钟&nbsp;|&nbsp;872 字&nbsp;|&nbsp;<a href="https://github.com/sanbeiicecream/run-blog/tree/main/content/posts/%e4%bd%bf%e7%94%a8echarts-for-react%e6%8a%a5%e9%94%99%ef%bc%9aCannot%20read%20properties%20of%20undefined%20%28reading%20%27disconnect%27%29.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2023-08-30 08:14:35.153 +0000 UTC'>2023年8月30日</span>&nbsp;|&nbsp;2 分钟&nbsp;|&nbsp;874 字&nbsp;|&nbsp;<a href="https://github.com/sanbeiicecream/run-blog/tree/main/content/posts/%e4%bd%bf%e7%94%a8echarts-for-react%e6%8a%a5%e9%94%99%ef%bc%9aCannot%20read%20properties%20of%20undefined%20%28reading%20%27disconnect%27%29.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> <aside id="toc-container" class="toc-container wide">
@@ -412,7 +412,7 @@
 <p>然后执行了dispose()，相当于还没渲染完成就卸载了</p>
 <p>为什么还没渲染完成就卸载组件了？这就是导致报错的原因<br>
 既然是在echats获取实例的时候报错了，这很大程度可能是因为echats内部导致的报错<br>
-查看echarts-for-react的packge.json包<br>
+查看echarts-for-react的packagse.json包<br>
 <img loading="lazy" src="https://image.jysgdyc.top:443/blog/20230830162943.png" alt="image.png"  />
 </p>
 <p>发现echarts-for-react 2.x版本只支持到4.x版本<br>
