@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Socket.IO on sanbeiicecream</title>
+    <link>https://sanbeiicecream.github.io/tags/socket.io/</link>
+    <description>Recent content in Socket.IO on sanbeiicecream</description>
+    <image>
+      <url>https://sanbeiicecream.github.io/papermod-cover.png</url>
+      <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 04 Sep 2023 03:49:45 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/socket.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在NextJS使用Socket.IO</title>
+      <link>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%BD%BF%E7%94%A8socket.io/</link>
+      <pubDate>Mon, 04 Sep 2023 03:49:45 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%BD%BF%E7%94%A8socket.io/</guid>
+      <description>由于socketio是借用nextjs启动的服务进行创建的，在app router下无法在端口处获取到完整的req与res 目前的nextJS版</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 30 Aug 2023 08:14:35 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Sep 2023 03:49:45 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在NextJS使用Socket.IO</title>
+      <link>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%BD%BF%E7%94%A8socket.io/</link>
+      <pubDate>Mon, 04 Sep 2023 03:49:45 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%BD%BF%E7%94%A8socket.io/</guid>
+      <description>由于socketio是借用nextjs启动的服务进行创建的，在app router下无法在端口处获取到完整的req与res 目前的nextJS版</description>
+    </item>
+    
     <item>
       <title>使用echarts-for-react报错：Cannot read properties of undefined (reading &#39;disconnect&#39;)</title>
       <link>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8echarts-for-react%E6%8A%A5%E9%94%99cannot-read-properties-of-undefined-reading-disconnect/</link>

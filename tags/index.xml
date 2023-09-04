@@ -10,11 +10,29 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 30 Aug 2023 08:14:35 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Sep 2023 03:49:45 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NextJS</title>
+      <link>https://sanbeiicecream.github.io/tags/nextjs/</link>
+      <pubDate>Mon, 04 Sep 2023 03:49:45 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/tags/nextjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Socket.IO</title>
+      <link>https://sanbeiicecream.github.io/tags/socket.io/</link>
+      <pubDate>Mon, 04 Sep 2023 03:49:45 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/tags/socket.io/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Web</title>
       <link>https://sanbeiicecream.github.io/tags/web/</link>
-      <pubDate>Wed, 30 Aug 2023 08:14:35 +0000</pubDate>
+      <pubDate>Mon, 04 Sep 2023 03:49:45 +0000</pubDate>
       
       <guid>https://sanbeiicecream.github.io/tags/web/</guid>
       <description></description>
