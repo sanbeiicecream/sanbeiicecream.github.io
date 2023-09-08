@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>建站 on sanbeiicecream</title>
+    <link>https://sanbeiicecream.github.io/tags/%E5%BB%BA%E7%AB%99/</link>
+    <description>Recent content in 建站 on sanbeiicecream</description>
+    <image>
+      <url>https://sanbeiicecream.github.io/papermod-cover.png</url>
+      <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 20 Feb 2023 11:59:58 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用obsidian的Templater插件替代hugo new命令</title>
+      <link>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8obsidian%E7%9A%84templater%E6%8F%92%E4%BB%B6%E6%9B%BF%E4%BB%A3hugo-new%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Mon, 20 Feb 2023 11:59:58 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8obsidian%E7%9A%84templater%E6%8F%92%E4%BB%B6%E6%9B%BF%E4%BB%A3hugo-new%E5%91%BD%E4%BB%A4/</guid>
+      <description>使用obsidian进行博客文章编辑时，需要下载一个生成模板的工具，不然使用hugo new xxx生成模板有点麻烦，需要下载一个插件 官方配置 1 2 3</description>
+    </item>
+    
+    <item>
+      <title>将PaperMod主题图片移动到右侧</title>
+      <link>https://sanbeiicecream.github.io/posts/%E5%B0%86papermod%E4%B8%BB%E9%A2%98%E7%9A%84%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87%E7%A7%BB%E5%8A%A8%E5%88%B0%E5%8F%B3%E4%BE%A7/</link>
+      <pubDate>Sun, 19 Feb 2023 09:51:19 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E5%B0%86papermod%E4%B8%BB%E9%A2%98%E7%9A%84%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87%E7%A7%BB%E5%8A%A8%E5%88%B0%E5%8F%B3%E4%BE%A7/</guid>
+      <description>修改文件都是用的同级覆盖方式，没有修改themes里面的文件 上面图片占用的面积太大了，需要调整一下放在右侧 修改文件layouts =&amp;gt; _default =&amp;gt; list.html 定位</description>
+    </item>
+    
+    <item>
+      <title>hugo使用PaperMod主题搭建静态博客</title>
+      <link>https://sanbeiicecream.github.io/posts/hugo%E4%BD%BF%E7%94%A8papermod%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 16 Feb 2023 02:51:14 +0800</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/hugo%E4%BD%BF%E7%94%A8papermod%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</guid>
+      <description>先动起来 配置优先的一个静态页面生成的框架 先安装hugo后，需要先安装golang 1 2 3 # 先创建一个模板 hugo new site xxx # 然后下载一个主题放在them</description>
+    </item>
+    
+  </channel>
+</rss>

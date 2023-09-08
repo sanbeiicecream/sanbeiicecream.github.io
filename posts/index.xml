@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on sanbeiicecream</title>
+    <link>https://sanbeiicecream.github.io/posts/</link>
+    <description>Recent content in Posts on sanbeiicecream</description>
+    <image>
+      <url>https://sanbeiicecream.github.io/papermod-cover.png</url>
+      <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 08 Sep 2023 05:53:16 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>每天一个排序算法 ---快速排序</title>
+      <link>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</link>
+      <pubDate>Fri, 08 Sep 2023 05:53:16 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>在NextJS使用Socket.IO</title>
+      <link>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%BD%BF%E7%94%A8socket.io/</link>
+      <pubDate>Mon, 04 Sep 2023 03:49:45 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%BD%BF%E7%94%A8socket.io/</guid>
+      <description>由于socketio是借用nextjs启动的服务进行创建的，在app router下无法在端口处获取到完整的req与res 目前的nextJS版</description>
+    </item>
+    
+    <item>
+      <title>使用echarts-for-react报错：Cannot read properties of undefined (reading &#39;disconnect&#39;)</title>
+      <link>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8echarts-for-react%E6%8A%A5%E9%94%99cannot-read-properties-of-undefined-reading-disconnect/</link>
+      <pubDate>Wed, 30 Aug 2023 08:14:35 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8echarts-for-react%E6%8A%A5%E9%94%99cannot-read-properties-of-undefined-reading-disconnect/</guid>
+      <description>结论：ECharts版本太高可能导致这个报错 源码地址 1 2 3 4 5 6 import ReactEcharts from &amp;#39;echarts-for-react&amp;#39; &amp;lt;ReactEcharts option={} style={{ height: &amp;#39;350px&amp;#39;, width: &amp;#39;100%&amp;#39; }} /&amp;gt; 依赖 1 2 3 4 &amp;#34;dependencies&amp;#34;: { ... &amp;#34;size-sensor&amp;#34;: &amp;#34;^1.0.0&amp;#34; // DOM 元素尺寸监听器，当元素尺</description>
+    </item>
+    
+    <item>
+      <title>浏览器拖拽</title>
+      <link>https://sanbeiicecream.github.io/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%96%E6%8B%BD/</link>
+      <pubDate>Fri, 25 Aug 2023 05:48:08 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%96%E6%8B%BD/</guid>
+      <description>mdn 使用WebApi功能实现 好处：这个拖拽是浏览器级别的功能，可以与其他应用交互 小缺陷：样式不能很好自定义，比如拖拽到放置区的鼠标的图标只有4</description>
+    </item>
+    
+    <item>
+      <title>使用certbot申请证书</title>
+      <link>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8certbot%E7%94%B3%E8%AF%B7%E8%AF%81%E4%B9%A6/</link>
+      <pubDate>Sun, 30 Jul 2023 04:28:22 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8certbot%E7%94%B3%E8%AF%B7%E8%AF%81%E4%B9%A6/</guid>
+      <description>官方推荐使用snap安装 Unless you have very specific requirements, we kindly suggest that you use the installation instructions for your system found at https://certbot.eff.org/instructions. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37</description>
+    </item>
+    
+    <item>
+      <title>解决ctrl&#43;shift&#43;f被win11输入法占用</title>
+      <link>https://sanbeiicecream.github.io/posts/%E8%A7%A3%E5%86%B3ctrl&#43;shift&#43;f%E8%A2%ABwin11%E8%BE%93%E5%85%A5%E6%B3%95%E5%8D%A0%E7%94%A8/</link>
+      <pubDate>Sat, 29 Jul 2023 02:37:34 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E8%A7%A3%E5%86%B3ctrl&#43;shift&#43;f%E8%A2%ABwin11%E8%BE%93%E5%85%A5%E6%B3%95%E5%8D%A0%E7%94%A8/</guid>
+      <description>ctrl+shift+f在各大IDE上都是用来做全局搜索的 如果使用中文输入法，有个简繁转换也默认是这个快捷键，导致了快捷键冲突，很不方便，可</description>
+    </item>
+    
+    <item>
+      <title>Egg中获取文件流的时候，抛出异常</title>
+      <link>https://sanbeiicecream.github.io/posts/egg%E4%B8%AD%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E6%B5%81%E7%9A%84%E6%97%B6%E5%80%99%E6%8A%9B%E5%87%BA%E5%BC%82%E5%B8%B8/</link>
+      <pubDate>Thu, 20 Jul 2023 17:52:23 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/egg%E4%B8%AD%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E6%B5%81%E7%9A%84%E6%97%B6%E5%80%99%E6%8A%9B%E5%87%BA%E5%BC%82%E5%B8%B8/</guid>
+      <description>在使用Egg作为服务端，上传jfif文件时报了个错 1 ctx.getFileStream() 这次抱着深究源码的态度进行解决问题，进行查看相关关键代码 源码 1 2 3 4 5 6 7 8 9 10 11 12 13</description>
+    </item>
+    
+    <item>
+      <title>Docker容器之间网络通信</title>
+      <link>https://sanbeiicecream.github.io/posts/docker%E5%AE%B9%E5%99%A8%E4%B9%8B%E9%97%B4%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/</link>
+      <pubDate>Fri, 14 Jul 2023 01:14:34 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/docker%E5%AE%B9%E5%99%A8%E4%B9%8B%E9%97%B4%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/</guid>
+      <description>https://docs.docker.com/network/ 1 2 # 查看docker网络 docker network ls 在创建容器时，使用-P -p 可以端口映射与宿主机进行通信；如果多个容器使用同一个主机端口创建容器会报错 容器之间</description>
+    </item>
+    
+    <item>
+      <title>S3Error - The request signature we calculated does not match the signature you provided. Check your key and signing method</title>
+      <link>https://sanbeiicecream.github.io/posts/s3error-the-request-signature-we-calculated-does-not-match-the-signature-you-provided.-check-your-key-and-signing-method/</link>
+      <pubDate>Wed, 28 Jun 2023 02:36:52 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/s3error-the-request-signature-we-calculated-does-not-match-the-signature-you-provided.-check-your-key-and-signing-method/</guid>
+      <description>在使用minio-js sdk上传文件时，出现 ==S3Error: The request signature we calculated does not match the signature you provided. Check your key and signing method.== 是不是服务器时区不对导致的？通过设置时间同步 1 2 3 4 5 6 7</description>
+    </item>
+    
+    <item>
+      <title>centos7 安装node18&#43; 解决报错</title>
+      <link>https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18&#43;-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/</link>
+      <pubDate>Sun, 18 Jun 2023 17:40:01 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18&#43;-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/</guid>
+      <description>最近有个库需要使用node18+版本，所以在node上安装了nvm https://github.com/nvm-sh/nvm 1 2 3 4 5 6 7 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash command -v nvm nvm ls-remote nvm install 【版本】 npm -v时提示有几个库的版本</description>
+    </item>
+    
+    <item>
+      <title>VMware使用docker安装EasyConnection</title>
+      <link>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8vmware%E5%AE%89%E8%A3%85docker%E8%BF%90%E8%A1%8Ceasyconnection/</link>
+      <pubDate>Sat, 22 Apr 2023 16:15:01 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8vmware%E5%AE%89%E8%A3%85docker%E8%BF%90%E8%A1%8Ceasyconnection/</guid>
+      <description>公司内网的Jenkins需要使用EasyConnection才能访问，但是这软件有点流氓 在自己电脑上是未开源的代理软件一概不敢使用怕有后门，</description>
+    </item>
+    
+    <item>
+      <title>适配器模式</title>
+      <link>https://sanbeiicecream.github.io/posts/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Sat, 08 Apr 2023 02:26:17 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/</guid>
+      <description>最近在使用axios时发现当出现400时控制台会打印 于是决定去看看axios源码中会把哪些响应状态码reject出来 1 2 3 4 5 6 7 8 9 10 11 12</description>
+    </item>
+    
+    <item>
+      <title>解决gitbash与其他软件集成中文乱码问题</title>
+      <link>https://sanbeiicecream.github.io/posts/%E8%A7%A3%E5%86%B3gitbash%E4%B8%8E%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6%E9%9B%86%E6%88%90%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 13 Mar 2023 18:19:19 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E8%A7%A3%E5%86%B3gitbash%E4%B8%8E%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6%E9%9B%86%E6%88%90%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
+      <description>结论：使用其他工具集成gitbash如果不加载配置会出现中文乱码问题 先在git bash中将字符编码改成UTF-8 然后在其他集成git bash</description>
+    </item>
+    
+    <item>
+      <title>理解递归</title>
+      <link>https://sanbeiicecream.github.io/posts/%E7%90%86%E8%A7%A3%E9%80%92%E5%BD%92/</link>
+      <pubDate>Wed, 08 Mar 2023 16:25:20 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E7%90%86%E8%A7%A3%E9%80%92%E5%BD%92/</guid>
+      <description>1 2 “要理解递归，首先要理解递归。” ——佚名 递归是一种解决问题的方法，它从解决问题的各个小部分开始，直到解决最初的大问题。递归通常涉及函数调</description>
+    </item>
+    
+    <item>
+      <title>You are calling notice in render which will break in React 18 concurrent mode. Please trigger in effect instead.</title>
+      <link>https://sanbeiicecream.github.io/posts/you-are-calling-notice-in-render-which-will-break-in-react-18-concurrent-mode.-please-trigger-in-effect-instead./</link>
+      <pubDate>Sun, 05 Mar 2023 18:47:39 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/you-are-calling-notice-in-render-which-will-break-in-react-18-concurrent-mode.-please-trigger-in-effect-instead./</guid>
+      <description>最近把以前的项目依赖升级一下（React升级到了18.x， antd升级到了5.x），以便看一下新的API更新了什么，在使用antd的mess</description>
+    </item>
+    
+    <item>
+      <title>消失的this</title>
+      <link>https://sanbeiicecream.github.io/posts/%E6%B6%88%E5%A4%B1%E7%9A%84this/</link>
+      <pubDate>Fri, 03 Mar 2023 07:25:09 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E6%B6%88%E5%A4%B1%E7%9A%84this/</guid>
+      <description>最近在做项目升级时，发现了很多以前不知道的细节点，记录下来。</description>
+    </item>
+    
+    <item>
+      <title>每天一个排序算法 ---归并排序</title>
+      <link>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</link>
+      <pubDate>Sun, 26 Feb 2023 12:15:11 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</guid>
+      <description>归并排序是第一个可以实际使用的排序算法。（冒泡、插入、选择）三个排序算法性能不好，但归并排序性能不错，其复杂度为 O(nlog(n))。 JavaScript 的 Array</description>
+    </item>
+    
+    <item>
+      <title>每天一个排序算法 ---插入排序</title>
+      <link>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/</link>
+      <pubDate>Thu, 23 Feb 2023 15:29:37 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/</guid>
+      <description>插入排序每次排一个数组项，以此方式构建最后的排序数组。 每次排的数组项依次增加1，第一次需要排序的数组项为1，第二次为2，直到需要排序数组的长</description>
+    </item>
+    
+    <item>
+      <title>每天一个排序算法 ---选择排序</title>
+      <link>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</link>
+      <pubDate>Wed, 22 Feb 2023 15:05:39 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</guid>
+      <description>选择排序算法是一种原址比较排序算法。选择排序大致的思路是找到数据结构中的最小值并将其放置在第一位，接着找到第二小的值并将其放在第二位，以此类</description>
+    </item>
+    
+    <item>
+      <title>每天一个排序算法 ---冒泡排序</title>
+      <link>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/</link>
+      <pubDate>Tue, 21 Feb 2023 15:29:59 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/</guid>
+      <description>冒泡排序比较所有相邻的两个项，如果第一个比第二个大，则交换它们。 元素项向后移动至正确的顺序 就好像气泡升至表面一样，从一个小气泡慢慢变大，交换</description>
+    </item>
+    
+    <item>
+      <title>使用obsidian的Templater插件替代hugo new命令</title>
+      <link>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8obsidian%E7%9A%84templater%E6%8F%92%E4%BB%B6%E6%9B%BF%E4%BB%A3hugo-new%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Mon, 20 Feb 2023 11:59:58 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8obsidian%E7%9A%84templater%E6%8F%92%E4%BB%B6%E6%9B%BF%E4%BB%A3hugo-new%E5%91%BD%E4%BB%A4/</guid>
+      <description>使用obsidian进行博客文章编辑时，需要下载一个生成模板的工具，不然使用hugo new xxx生成模板有点麻烦，需要下载一个插件 官方配置 1 2 3</description>
+    </item>
+    
+    <item>
+      <title>将PaperMod主题图片移动到右侧</title>
+      <link>https://sanbeiicecream.github.io/posts/%E5%B0%86papermod%E4%B8%BB%E9%A2%98%E7%9A%84%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87%E7%A7%BB%E5%8A%A8%E5%88%B0%E5%8F%B3%E4%BE%A7/</link>
+      <pubDate>Sun, 19 Feb 2023 09:51:19 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E5%B0%86papermod%E4%B8%BB%E9%A2%98%E7%9A%84%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87%E7%A7%BB%E5%8A%A8%E5%88%B0%E5%8F%B3%E4%BE%A7/</guid>
+      <description>修改文件都是用的同级覆盖方式，没有修改themes里面的文件 上面图片占用的面积太大了，需要调整一下放在右侧 修改文件layouts =&amp;gt; _default =&amp;gt; list.html 定位</description>
+    </item>
+    
+    <item>
+      <title>谷歌浏览器你要干什么</title>
+      <link>https://sanbeiicecream.github.io/posts/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BD%A0%E8%A6%81%E5%B9%B2%E4%BB%80%E4%B9%88/</link>
+      <pubDate>Fri, 17 Feb 2023 07:59:02 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BD%A0%E8%A6%81%E5%B9%B2%E4%BB%80%E4%B9%88/</guid>
+      <description>谷歌浏览器这是要干嘛？？？ 果断设置里面=&amp;gt; 隐私设置和安全性 =&amp;gt; 安全浏览 里面关闭</description>
+    </item>
+    
+    <item>
+      <title>hugo使用PaperMod主题搭建静态博客</title>
+      <link>https://sanbeiicecream.github.io/posts/hugo%E4%BD%BF%E7%94%A8papermod%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 16 Feb 2023 02:51:14 +0800</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/hugo%E4%BD%BF%E7%94%A8papermod%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</guid>
+      <description>先动起来 配置优先的一个静态页面生成的框架 先安装hugo后，需要先安装golang 1 2 3 # 先创建一个模板 hugo new site xxx # 然后下载一个主题放在them</description>
+    </item>
+    
+    <item>
+      <title>图床 Test</title>
+      <link>https://sanbeiicecream.github.io/posts/%E5%9B%BE%E5%BA%8A-hosting-test/</link>
+      <pubDate>Sat, 04 Feb 2023 01:16:22 +0800</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E5%9B%BE%E5%BA%8A-hosting-test/</guid>
+      <description>图床test</description>
+    </item>
+    
+    <item>
+      <title>Blog Test</title>
+      <link>https://sanbeiicecream.github.io/posts/blog-test/</link>
+      <pubDate>Thu, 02 Feb 2023 23:41:59 +0800</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/blog-test/</guid>
+      <description>还是开始那样的 Hello World！</description>
+    </item>
+    
+  </channel>
+</rss>

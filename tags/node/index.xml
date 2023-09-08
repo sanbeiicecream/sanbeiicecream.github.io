@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>node on sanbeiicecream</title>
+    <link>https://sanbeiicecream.github.io/tags/node/</link>
+    <description>Recent content in node on sanbeiicecream</description>
+    <image>
+      <url>https://sanbeiicecream.github.io/papermod-cover.png</url>
+      <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 20 Jul 2023 17:52:23 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Egg中获取文件流的时候，抛出异常</title>
+      <link>https://sanbeiicecream.github.io/posts/egg%E4%B8%AD%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E6%B5%81%E7%9A%84%E6%97%B6%E5%80%99%E6%8A%9B%E5%87%BA%E5%BC%82%E5%B8%B8/</link>
+      <pubDate>Thu, 20 Jul 2023 17:52:23 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/egg%E4%B8%AD%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E6%B5%81%E7%9A%84%E6%97%B6%E5%80%99%E6%8A%9B%E5%87%BA%E5%BC%82%E5%B8%B8/</guid>
+      <description>在使用Egg作为服务端，上传jfif文件时报了个错 1 ctx.getFileStream() 这次抱着深究源码的态度进行解决问题，进行查看相关关键代码 源码 1 2 3 4 5 6 7 8 9 10 11 12 13</description>
+    </item>
+    
+    <item>
+      <title>centos7 安装node18&#43; 解决报错</title>
+      <link>https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18&#43;-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/</link>
+      <pubDate>Sun, 18 Jun 2023 17:40:01 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/centos7-%E5%AE%89%E8%A3%85node18&#43;-%E8%A7%A3%E5%86%B3%E6%8A%A5%E9%94%99/</guid>
+      <description>最近有个库需要使用node18+版本，所以在node上安装了nvm https://github.com/nvm-sh/nvm 1 2 3 4 5 6 7 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash command -v nvm nvm ls-remote nvm install 【版本】 npm -v时提示有几个库的版本</description>
+    </item>
+    
+  </channel>
+</rss>

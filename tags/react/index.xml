@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>React on sanbeiicecream</title>
+    <link>https://sanbeiicecream.github.io/tags/react/</link>
+    <description>Recent content in React on sanbeiicecream</description>
+    <image>
+      <url>https://sanbeiicecream.github.io/papermod-cover.png</url>
+      <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 05 Mar 2023 18:47:39 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You are calling notice in render which will break in React 18 concurrent mode. Please trigger in effect instead.</title>
+      <link>https://sanbeiicecream.github.io/posts/you-are-calling-notice-in-render-which-will-break-in-react-18-concurrent-mode.-please-trigger-in-effect-instead./</link>
+      <pubDate>Sun, 05 Mar 2023 18:47:39 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/you-are-calling-notice-in-render-which-will-break-in-react-18-concurrent-mode.-please-trigger-in-effect-instead./</guid>
+      <description>最近把以前的项目依赖升级一下（React升级到了18.x， antd升级到了5.x），以便看一下新的API更新了什么，在使用antd的mess</description>
+    </item>
+    
+  </channel>
+</rss>

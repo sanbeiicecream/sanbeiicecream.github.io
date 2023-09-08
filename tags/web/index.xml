@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web on sanbeiicecream</title>
+    <link>https://sanbeiicecream.github.io/tags/web/</link>
+    <description>Recent content in Web on sanbeiicecream</description>
+    <image>
+      <url>https://sanbeiicecream.github.io/papermod-cover.png</url>
+      <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 04 Sep 2023 03:49:45 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在NextJS使用Socket.IO</title>
+      <link>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%BD%BF%E7%94%A8socket.io/</link>
+      <pubDate>Mon, 04 Sep 2023 03:49:45 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%BD%BF%E7%94%A8socket.io/</guid>
+      <description>由于socketio是借用nextjs启动的服务进行创建的，在app router下无法在端口处获取到完整的req与res 目前的nextJS版</description>
+    </item>
+    
+    <item>
+      <title>使用echarts-for-react报错：Cannot read properties of undefined (reading &#39;disconnect&#39;)</title>
+      <link>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8echarts-for-react%E6%8A%A5%E9%94%99cannot-read-properties-of-undefined-reading-disconnect/</link>
+      <pubDate>Wed, 30 Aug 2023 08:14:35 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8echarts-for-react%E6%8A%A5%E9%94%99cannot-read-properties-of-undefined-reading-disconnect/</guid>
+      <description>结论：ECharts版本太高可能导致这个报错 源码地址 1 2 3 4 5 6 import ReactEcharts from &amp;#39;echarts-for-react&amp;#39; &amp;lt;ReactEcharts option={} style={{ height: &amp;#39;350px&amp;#39;, width: &amp;#39;100%&amp;#39; }} /&amp;gt; 依赖 1 2 3 4 &amp;#34;dependencies&amp;#34;: { ... &amp;#34;size-sensor&amp;#34;: &amp;#34;^1.0.0&amp;#34; // DOM 元素尺寸监听器，当元素尺</description>
+    </item>
+    
+    <item>
+      <title>浏览器拖拽</title>
+      <link>https://sanbeiicecream.github.io/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%96%E6%8B%BD/</link>
+      <pubDate>Fri, 25 Aug 2023 05:48:08 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%96%E6%8B%BD/</guid>
+      <description>mdn 使用WebApi功能实现 好处：这个拖拽是浏览器级别的功能，可以与其他应用交互 小缺陷：样式不能很好自定义，比如拖拽到放置区的鼠标的图标只有4</description>
+    </item>
+    
+  </channel>
+</rss>
