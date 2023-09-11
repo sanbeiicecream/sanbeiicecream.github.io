@@ -10,16 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 08 Sep 2023 05:53:16 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>每天一个排序算法 ---快速排序</title>
-      <link>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</link>
-      <pubDate>Fri, 08 Sep 2023 05:53:16 +0000</pubDate>
-      
-      <guid>https://sanbeiicecream.github.io/posts/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95---%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 04 Sep 2023 03:49:45 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在NextJS使用Socket.IO</title>
       <link>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%BD%BF%E7%94%A8socket.io/</link>
@@ -144,15 +135,6 @@
       
       <guid>https://sanbeiicecream.github.io/posts/you-are-calling-notice-in-render-which-will-break-in-react-18-concurrent-mode.-please-trigger-in-effect-instead./</guid>
       <description>最近把以前的项目依赖升级一下（React升级到了18.x， antd升级到了5.x），以便看一下新的API更新了什么，在使用antd的mess</description>
-    </item>
-    
-    <item>
-      <title>消失的this</title>
-      <link>https://sanbeiicecream.github.io/posts/%E6%B6%88%E5%A4%B1%E7%9A%84this/</link>
-      <pubDate>Fri, 03 Mar 2023 07:25:09 +0000</pubDate>
-      
-      <guid>https://sanbeiicecream.github.io/posts/%E6%B6%88%E5%A4%B1%E7%9A%84this/</guid>
-      <description>最近在做项目升级时，发现了很多以前不知道的细节点，记录下来。</description>
     </item>
     
     <item>
