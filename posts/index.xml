@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 04 Sep 2023 03:49:45 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Sep 2023 18:07:51 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在NextJs中自定义服务导入TS文件</title>
+      <link>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E6%9C%8D%E5%8A%A1%E5%AF%BC%E5%85%A5ts%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Tue, 19 Sep 2023 18:07:51 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E6%9C%8D%E5%8A%A1%E5%AF%BC%E5%85%A5ts%E6%96%87%E4%BB%B6/</guid>
+      <description>在项目中一般不应该TS与JS混合开发，但是也有一些例外，有些依赖包没有使用TS开发，所以TS提供了一个选项&amp;quot;allowJs&amp;quo</description>
+    </item>
+    
     <item>
       <title>在NextJS使用Socket.IO</title>
       <link>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%BD%BF%E7%94%A8socket.io/</link>
