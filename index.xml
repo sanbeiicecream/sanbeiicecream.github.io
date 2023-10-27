@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 19 Sep 2023 18:07:51 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Oct 2023 06:58:26 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Vant组件时报错</title>
+      <link>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8vant%E7%BB%84%E4%BB%B6%E6%97%B6%E6%8A%A5%E9%94%99/</link>
+      <pubDate>Fri, 27 Oct 2023 06:58:26 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8vant%E7%BB%84%E4%BB%B6%E6%97%B6%E6%8A%A5%E9%94%99/</guid>
+      <description>在使用Vant二次封装表单组件时，发现控制台报了个错 Swipe.mjs:183 Uncaught (in promise) TypeError: Cannot read properties of null (reading &amp;lsquo;offsetWidth&amp;rsquo;) 根据页面点击，发现当页面出现输入框与下拉框时在两个不同组件点击时</description>
+    </item>
+    
     <item>
       <title>在NextJs中自定义服务导入TS文件</title>
       <link>https://sanbeiicecream.github.io/posts/%E5%9C%A8nextjs%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E6%9C%8D%E5%8A%A1%E5%AF%BC%E5%85%A5ts%E6%96%87%E4%BB%B6/</link>
