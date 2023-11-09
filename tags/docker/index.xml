@@ -9,7 +9,6 @@
       <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
     <lastBuildDate>Fri, 14 Jul 2023 01:14:34 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker容器之间网络通信</title>

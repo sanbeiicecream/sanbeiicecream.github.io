@@ -9,7 +9,6 @@
       <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
     <lastBuildDate>Sun, 05 Mar 2023 18:47:39 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/antd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>You are calling notice in render which will break in React 18 concurrent mode. Please trigger in effect instead.</title>

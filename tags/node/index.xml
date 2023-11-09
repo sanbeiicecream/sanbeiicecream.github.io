@@ -9,7 +9,6 @@
       <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
     <lastBuildDate>Thu, 20 Jul 2023 17:52:23 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/node/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Egg中获取文件流的时候，抛出异常</title>
