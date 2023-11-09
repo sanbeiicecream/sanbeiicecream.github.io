@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 27 Oct 2023 06:58:26 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Nov 2023 15:15:34 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>栈</title>
+      <link>https://sanbeiicecream.github.io/posts/%E5%AD%A6%E4%B9%A0javascript%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%88/</link>
+      <pubDate>Thu, 09 Nov 2023 15:15:34 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E5%AD%A6%E4%B9%A0javascript%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%88/</guid>
+      <description>栈是一种遵从后进先出（LIFO =&amp;gt; Last In First Out）原则的有序集合。新添加或待删除的元素都保存在栈的同一端，称作栈顶，另一端就叫栈底。在栈里，新元</description>
+    </item>
+    
     <item>
       <title>使用Vant组件时报错</title>
       <link>https://sanbeiicecream.github.io/posts/%E4%BD%BF%E7%94%A8vant%E7%BB%84%E4%BB%B6%E6%97%B6%E6%8A%A5%E9%94%99/</link>

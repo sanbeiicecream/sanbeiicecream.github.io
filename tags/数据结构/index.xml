@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>数据结构 on sanbeiicecream</title>
+    <link>https://sanbeiicecream.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+    <description>Recent content in 数据结构 on sanbeiicecream</description>
+    <image>
+      <url>https://sanbeiicecream.github.io/papermod-cover.png</url>
+      <link>https://sanbeiicecream.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 09 Nov 2023 15:15:34 +0000</lastBuildDate><atom:link href="https://sanbeiicecream.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>栈</title>
+      <link>https://sanbeiicecream.github.io/posts/%E5%AD%A6%E4%B9%A0javascript%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%88/</link>
+      <pubDate>Thu, 09 Nov 2023 15:15:34 +0000</pubDate>
+      
+      <guid>https://sanbeiicecream.github.io/posts/%E5%AD%A6%E4%B9%A0javascript%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%A0%88/</guid>
+      <description>栈是一种遵从后进先出（LIFO =&amp;gt; Last In First Out）原则的有序集合。新添加或待删除的元素都保存在栈的同一端，称作栈顶，另一端就叫栈底。在栈里，新元</description>
+    </item>
+    
+  </channel>
+</rss>
